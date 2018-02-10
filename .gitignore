@@ -1,0 +1,21 @@
+.idea
+.terraform
+.git
+test-plan
+.tfstat*
+*.iml
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Terraform
+**/.terraform/*
+*.tfstat*
+*.tfvars
+test-plan
