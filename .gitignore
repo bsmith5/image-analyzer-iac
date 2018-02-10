@@ -1,8 +1,6 @@
+# Project and VCS
 .idea
-.terraform
 .git
-test-plan
-.tfstat*
 *.iml
 
 # Go

@@ -18,6 +18,8 @@ resource "google_compute_instance" "default" {
   }
   network_interface {
     network = "default"
+
+    access_config {}
   }
 /*  metadata {
     sshKeys = "${var.ssh_user}:${file(var.ssh_pub_key_file)}"
